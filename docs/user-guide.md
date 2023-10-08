@@ -9,21 +9,21 @@ In addition, it is built on Bahmni, an open-source EHR system, and is highly cus
 
 The RAAD EMR system includes the following key modules:
 
-* Client & Patient Registration: Allows healthcare providers to register patients and create their medical records.
+* *Client & Patient Registration*: Allows healthcare providers to register patients and create their medical records.
 
-* Consultation & Medication/pharmacy: Allows healthcare providers to document patient consultations, prescribe medications, and track medication orders.
+* *Consultation & Medication/pharmacy*: Allows healthcare providers to document patient consultations, prescribe medications, and track medication orders.
 
-* Program Specific Consultation: Allows healthcare providers to document consultations for specific programs, such as HIV/AIDS or malaria.
+* *Program Specific Consultation*: Allows healthcare providers to document consultations for specific programs, such as HIV/AIDS or malaria.
 
-* Laboratory workflow management: Allows healthcare providers to manage laboratory tests and results.
+* *Laboratory workflow management*: Allows healthcare providers to manage laboratory tests and results.
 
-* Data management Reports Module: Allows healthcare providers to generate reports on patient data.
+* *Data management Reports Module*: Allows healthcare providers to generate reports on patient data.
 
-* Metadata Management Module: Facilitates healthcare providers to manage metadata, such as the definitions of terms and codes.
+* *Metadata Management Module*: Facilitates healthcare providers to manage metadata, such as the definitions of terms and codes.
 
-* User management Module: Facilates healthcare providers to manage user accounts and permissions.
+* *User management Module*: Facilates healthcare providers to manage user accounts and permissions.
 
-* HMIS Reporting Module: This module allows healthcare providers to generate reports and integrate with the Somalia HMIS system.
+* *HMIS Reporting Module*: This module allows healthcare providers to generate reports and integrate with the Somalia HMIS system.
 
 
 ## Clinical Service
@@ -40,7 +40,7 @@ Then click on the Clinical Services Icon
 ### User Login
 The EHR provides user login for the providers who are providing services to the patients/clients.  
 For the user to login to the Clinical module, they need to provide their username and password, if they don’t have an access account they will need to request it from the system administrator at the health facility.
-The system only allows only authenticated users to login. If the user is logging in for the first time, the user will be required to change their password and provide a new password.
+The system only allows authenticated users to login. If the user is logging in for the first time, the user will be required to change their password and provide a new password.
 In addition, the user will need to select the location they are providing service based on the available options(Service point areas).
 
 
