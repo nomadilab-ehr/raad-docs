@@ -3,6 +3,7 @@ site_url: https://uat.raad.gov.so
 nav:
   - Home: index.md
   - User Guide: user-guide.md
+  - Tutorials: tutorials.md
   - User Support: user-support.md
   - About: about.md
 theme:
