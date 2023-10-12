@@ -82,6 +82,8 @@ The patient registration app provides the ability to start and edit a patient re
 Access the Patient Registration
 - On the Clinical App landing page, click on the Registration App. This will direct you to the registration page.
 
+Reference the registration application video walkthrough here -  [Patient Registration](https://youtu.be/jibRpFsEmuU?si=piQMEtujmNJFafPa)
+
 
 ![Registration App Page](images/image1.png)
 
@@ -218,6 +220,8 @@ Once the patient visit is closed, the patient won’t be accessible on the clini
 This is a core module and serves multiple purposes, including viewing the treatment history of existing patients, initiating consultations and treatment for registered patients. It can be conveniently accessed through the 'Clinical' app on the system's landing page.
 
 Additionally, this module facilitates searching, viewing, and editing patient observations, placing lab requests, recording patient diagnoses and conditions, and dispensing medications to patients. It's important to note that the clinical module is specifically designed for patients who currently have an active visit.
+
+Reference the clinical consulation walkthrough here - [Clinical Consultation Workflow](https://youtu.be/Kj9Y1XAOqDU?si=QiBWCLVTvaIuhqWJ)
 
 ##### Clinical Patient Queue
 It contains different patient queues for patients having an active visit at the health facility. The different queues are based on the patient's visit type.  Note, for patients admitted they will always be active until they are discharged. 
@@ -370,6 +374,8 @@ After completing filling the information which includes the patient’s diagnosi
 
 Please note the capturing of the diagnosis and condition information will be based on ICD11 coding. 
 
+Reference the diagnosis module walkthrough here - [Diagnosis Module](https://youtu.be/9ElmkEL9KGE?si=mZa-3nEv6tYnv_go)
+
 ##### Drug Module/Pharmacy Module/Medication Module
 
 It is a specialised component designed to manage and streamline pharmacy-related tasks and information within a healthcare facility. This module plays a crucial role in ensuring the safe and efficient delivery of medications to patients. It can be accessed from the fifth tab on the patient’s dashboard with a ‘Medications’ title
@@ -378,6 +384,8 @@ It is a specialised component designed to manage and streamline pharmacy-related
 
 After the prescription has been added, the pharmacy user will dispense the medication to the patient by clicking "dispense all” or specifically selecting “D” on each prescription then saving.
 In addition, the module supports electronic prescribing (e-prescribing) of medications to external pharmacies, improving efficiency and accuracy in prescription processing.
+
+Reference the medication prescribing and dispensation walkthrough here - [Drug Presciptions and Dispensations](https://youtu.be/9ElmkEL9KGE?si=mZa-3nEv6tYnv_go)
 
 ![Drug Module](images/image29.png)
 
@@ -468,6 +476,8 @@ Follow the same steps then select on the the transfer button then click on save
 The laboratory platform is built on the open source laboratory information systems (OpenELIS)  that provides different lab management features and workflows, and seamlessly integrates with the electronic medical record system. 
 To access the Laboratory platform, click on the “Laboratory” app on the landing page using the following URL 
 [uat.raad.moh.gov.so](https://uat.raad.moh.gov.so).
+
+Reference the Laboratory walkthrough here - [Lab Workflow](https://youtu.be/bdpHGbUU0ZM?si=sl92KPqTqWFipf5z)
 
 For the user to login to the Laboratory  module, they need to provide their username and password, if they don’t have an access account they will need to request it from the system administrator at the health facility.
 
