@@ -36,9 +36,9 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/Nomadilab
-    - icon: fontawesome/brands/linkedin
-      link: https://twitter.com/Nomadilab
+      link: https://x.com/MoH_Somalia
+    - icon: fontawesome/solid/info
+      link: https://moh.gov.so/en/
   consent:
     title: Cookie consent
     description: >- 
