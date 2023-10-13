@@ -195,6 +195,7 @@ The Start visit types includes:
 ![Visits Page ](images/image12.png)
 
 ##### Closing Patient Visit
+
 Closing a patient visit means the patient won’t be active on the clinical queue or available to receive services. This should be done once a patient visit or patient encounters with the clinicians have been completed. If not closed, the system will automatically close the visits at the end of the day(at midnight).
 
 If the patient has already begun their visit:
@@ -222,6 +223,7 @@ Once the patient visit is closed, the patient won’t be accessible on the clini
 
 
 ### Clinical Application
+
 This is a core module and serves multiple purposes, including viewing the treatment history of existing patients, initiating consultations and treatment for registered patients. It can be conveniently accessed through the 'Clinical' app on the system's landing page.
 
 Additionally, this module facilitates searching, viewing, and editing patient observations, placing lab requests, recording patient diagnoses and conditions, and dispensing medications to patients. It's important to note that the clinical module is specifically designed for patients who currently have an active visit.
@@ -229,6 +231,7 @@ Additionally, this module facilitates searching, viewing, and editing patient ob
 Reference the clinical consulation walkthrough here - [Clinical Consultation Workflow](https://youtu.be/Kj9Y1XAOqDU?si=QiBWCLVTvaIuhqWJ)
 
 ##### Clinical Patient Queue
+
 It contains different patient queues for patients having an active visit at the health facility. The different queues are based on the patient's visit type.  Note, for patients admitted they will always be active until they are discharged. 
 
 
@@ -236,6 +239,7 @@ It contains different patient queues for patients having an active visit at the 
 
 
 ##### Patient's Dashboard
+
 It contains the patient's information summary from the date of their first recorded visit and it aids in capturing and documenting various types of observations, encounters, diagnosis, treatment and assesments to a patient’s medical health record.
 
 It highlights the patient demographics,  history and contains the patient's previous and active visits and earlier diagnosis and treatments provided. 
@@ -264,6 +268,7 @@ On the patient dashboard, there are quick access links to facilitate easy naviga
 ##### Observation Forms
 
 ###### Vital Information Forms
+
 It is an observation form used to record a patient's vital signs and essential physiological measurements that provide important information about their overall health and well-being.
 
 It can be accessed by clicking on the  “Consultation” button on the top right corner of  the patient’s dashboard page.
@@ -345,6 +350,7 @@ Capturing information on the observation forms follows the same process.
 
 
 ##### Cosultation Notes
+
 They are the notes captured by physicians/specialists that highlight crucial information about a patient's medical condition based on the observations, examinations, and lab test results if conducted. 
 
 It is accessed from the patient's dashboard, by clicking the ‘Consultation’ tab.
@@ -357,6 +363,7 @@ After consultation notes have been added,  save the consultation notes using the
 
 
 ##### Laboratory Orders
+
 It consists of the lab test catalogue which includes  test names, test codes and test requirements and the tab is to be operated by lab technicians.
 
 It is accessed from the  patient’s dashboard by clicking the ‘Laboratory orders’ tab.
@@ -501,6 +508,7 @@ Can be accessed as the first page after logging in the Laboratory platform, the 
 ![Laboratory Module Home Page ](images/image32.png)
 
 ### Collecting Samples 
+
 It is a streamlined component designed to facilitate the efficient and accurate collection of patient samples for laboratory testing. This sub-module is integral to the laboratory workflow and ensures that the right samples are collected from patients for diagnostic purposes.
 
 Can be accessed in two ways:
@@ -532,6 +540,7 @@ The accession number uniquely identifies the samples taken at the laboratory.
 
 
 ### Providing Results
+
 It is a specialised component designed to efficiently deliver and manage the results of medical tests and diagnostic procedures to healthcare providers and patients.
 
 It is accessed from the top menu section on the specific menu labelled  ‘Results’, then selected on the way to search for the results either by Patient, Accession or Status . Searching by patient attributes  is the most recommended option to use 
@@ -580,6 +589,7 @@ You can print the Lab report  of the patient by running a manual search of the p
 ## Reports Generation
 
 ### Reports App
+
 A sub-module designed to generate and manage various types of patient level register reports. These reports are crucial for healthcare providers, to access, analyse patient data, and track healthcare outcomes.
 
 It can be accessed from the clinical services dashboard by clicking the  ‘Reports’ app menu button.
