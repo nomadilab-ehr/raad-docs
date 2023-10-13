@@ -5,23 +5,23 @@ The RAAD system is an electronic health record (EHR) and hospital information sy
 
 In addition, it is built on [Bahmni Platform](https://www.bahmni.org/), an open-source EHR system, and is highly customizable and configurable to meet the specific needs of different health facilities.
 
-The RAAD EMR system includes the following key modules:
+The RAAD system includes the following key modules:
 
 * *Client & Patient Registration*: Allows healthcare providers to register patients and create their medical records.
 
-* *Consultation & Medication/pharmacy*: Allows healthcare providers to document patient consultations, prescribe medications, and track medication orders.
+* *Consultation & Medication/Pharmacy*: Allows healthcare providers to document patient consultations, prescribe medications, and track medication orders.
 
 * *Program Specific Consultation*: Allows healthcare providers to document consultations for specific programs, such as HIV/AIDS or Antenatal care.
 
-* *Laboratory workflow management*: Allows healthcare providers to manage laboratory tests and results.
+* *Laboratory Workflow Management*: Allows healthcare providers to manage laboratory tests and results.
 
-* *Data management Reports Module*: Allows healthcare providers to generate reports on patient data.
+* *Data Management Reports Module*: Allows healthcare providers to generate reports on patient data.
 
 * *Metadata Management Module*: Facilitates healthcare providers to manage metadata, such as the definitions of terms and codes.
 
-* *User management Module*: Facilates healthcare providers to manage user accounts and permissions.
+* *User Management Module*: Facilates healthcare providers to manage user accounts and permissions.
 
-* *HMIS Reporting Module*: This module allows healthcare providers to generate reports and integrate with the Somalia HMIS system.
+* *HMIS Reporting Module*: This module allows healthcare providers to generate aggregate summary HMIS reports and integrate with the [Somalia HMIS](https://hmis.moh.gov.so/) (Health Managment Information System).
 
 
 ![RAAD System Design](images/raad-design.png)
