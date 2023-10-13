@@ -11,7 +11,7 @@ The RAAD EMR system includes the following key modules:
 
 * *Consultation & Medication/pharmacy*: Allows healthcare providers to document patient consultations, prescribe medications, and track medication orders.
 
-* *Program Specific Consultation*: Allows healthcare providers to document consultations for specific programs, such as HIV/AIDS or malaria.
+* *Program Specific Consultation*: Allows healthcare providers to document consultations for specific programs, such as HIV/AIDS or Antenatal care.
 
 * *Laboratory workflow management*: Allows healthcare providers to manage laboratory tests and results.
 
