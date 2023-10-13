@@ -5,7 +5,7 @@
 
 The RAAD system is an electronic health record (EHR) and hospital information system designed to digitise patient management and healthcare delivery at the point of care, ultimately enhancing the quality, efficiency, and cost-effectiveness of healthcare services. It captures information about who received the services, who provided the services, where the services were received, and what specific care was received. 
 
-In addition, it is built on Bahmni, an open-source EHR system, and is highly customizable and configurable to meet the specific needs of different health facilities.
+In addition, it is built on [Bahmni Platform](https://www.bahmni.org/), an open-source EHR system, and is highly customizable and configurable to meet the specific needs of different health facilities.
 
 The RAAD EHR system includes the following key modules:
 
@@ -24,6 +24,10 @@ The RAAD EHR system includes the following key modules:
 * *User management Module*: Facilates healthcare providers to manage user accounts and permissions.
 
 * *HMIS Reporting Module*: This module allows healthcare providers to generate reports and integrate with the Somalia HMIS system.
+
+
+![RAAD Systen Design](images/raad-design.png)
+*RAAD EHR High Level Design*
 
 
 ## Clinical Service
