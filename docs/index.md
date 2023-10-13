@@ -1,7 +1,7 @@
 
 # RAAD System
 
-The RAAD system is an electronic health record (EHR) and hospital information system designed to digitise patient management and healthcare delivery at the point of care, ultimately enhancing the quality, efficiency, and cost-effectiveness of healthcare services. It captures information about who received the services, who provided the services, where the services were received, and what specific care was received. 
+The RAAD system is an electronic health record (EHR) and a hospital information system designed to digitilize patient management and healthcare delivery at the point of care, ultimately enhancing the quality, efficiency, and cost-effectiveness of healthcare services. It captures information about who received the services, who provided the services, where the services were received, and what specific care was offered. 
 
 In addition, it is built on [Bahmni Platform](https://www.bahmni.org/), an open-source EHR system, and is highly customizable and configurable to meet the specific needs of different health facilities.
 
