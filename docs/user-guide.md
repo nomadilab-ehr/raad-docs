@@ -1,13 +1,13 @@
 
 #  RAAD EHR End User Guide
 
-## Introduction to RAAD EHR
+## Introduction to RAAD System
 
-The RAAD EHR system is an electronic health record (EHR) and hospital information system designed to digitise patient management and healthcare delivery at the point of care, ultimately enhancing the quality, efficiency, and cost-effectiveness of healthcare services. It captures information about who received the services, who provided the services, where the services were received, and what specific care was received. 
+The RAAD system is an electronic health record (EHR) and hospital information system designed to digitise patient management and healthcare delivery at the point of care, ultimately enhancing the quality, efficiency, and cost-effectiveness of healthcare services. It captures information about who received the services, who provided the services, where the services were received, and what specific care was received. 
 
 In addition, it is built on Bahmni, an open-source EHR system, and is highly customizable and configurable to meet the specific needs of different health facilities.
 
-The RAAD EMR system includes the following key modules:
+The RAAD EHR system includes the following key modules:
 
 * *Client & Patient Registration*: Allows healthcare providers to register patients and create their medical records.
 
@@ -487,9 +487,9 @@ For the user to login to the Laboratory  module, they need to provide their user
 If the user login information is incorrect, the system will let the user know and provide the error message on the login page. If the user error persists, please contact the system administrator for assistance.
 
 ### Receiving Lab Orders
-Receiving Lab Orders
+
 This component  focuses on the process of receiving and managing lab orders from healthcare providers.
-After saving Laboratory Orders within the Clinical Module the EHR system  automatically initiates requests  in the Laboratory  Module for the collection of the patient's sample/samples.
+After saving Laboratory Orders within the Clinical Module of the EHR system, it automatically initiates requests  in the Laboratory  Module for the collection of the patient's sample/samples.
 
 Can be accessed as the first page after logging in the Laboratory platform, the Lab Dashboard
 
@@ -542,11 +542,11 @@ Then the specialist will fill the form with the tests result  done at the facili
 ![Laboratory Module - Providing Results ](images/image39.png)
 
 If the facility can’t facilitate some tests to be done which are crucial, the patient will be referred to an external lab
-And at the test it will be indicated the patient was referred out and one also can  attach a copy of the results from the external lab as well as additional notes for the reason for being referred out to an external lab 
+And at the test will be indicated the patient was referred out and one also can attach a copy of the results from the external lab as well as additional notes for the reason for being referred out to an external lab 
 
 ![Laboratory Module - Providing Results ](images/image40.png)
 
-Then you will be prompted to save the test results from the save button at the bottom centre of the page
+Then you will be prompted to save the test results from the save button at the bottom of the page
 
 When the patient will be back with the results, one will be required to upload the results and a lab report file.
 
@@ -556,15 +556,15 @@ To file the results on the results tab now you will click on the ‘Referred Out
 
 ### Validating Results
 
-This is a crucial step in the laboratory testing process to ensure the accuracy, reliability, and integrity of test results before they are reported to healthcare providers and patients
+This is a crucial step in the laboratory testing process to ensure the accuracy, reliability, and integrity of test results before they are reported to healthcare providers and patients. 
 The page can be accessed on the ‘Validate’ tab on the menu bar
 
 ![Laboratory Module - Validating Results ](images/image42.png)
 
-Where one will be prompted to either accept, reject or indicate the results are abnormal and from the side one can add additional notes for either choice made.Then click on save after validation.
+The user will be prompted to either accept, reject or indicate the results are abnormal and on the side one can add additional notes for option selected. Then click on save after validation.
 
 
-Back on the Lab dashboard on the  Sample Collected you will be able to view the samples collected on that day and the actions done on them. 
+On the Lab dashboard, you will be able to view the samples collected on that day and actions that can be peformed on the samples(provide results, validate, or print results, or generate an accession number). 
 
 ![Laboratory Module - Validating Results ](images/image43.png)
 
@@ -606,3 +606,196 @@ Previously generated reports or queued reports can be accessed  on the ‘My rep
 ![HMIS Reports ](images/image62.png)
 
 ![HMIS Reports ](images/image63.png)
+
+## User Management 
+
+### Clinical Service - User Management
+
+To add or update user information on the RAAD Clinical Service, the user administrator will be required to use the OpenMRS login page. It can be accessed using the namespace /openmrs/ on the main system URL. 
+> For example, on the UAT environment, it can be accessed here 
+ [uat.raad.moh.gov.so/openmrs](https://uat.raad.moh.gov.so/openmrs)
+
+
+The user management module facilitates
+
+* Addition of new system users and allocation of appropriate roles.
+
+* Updating system users’ information.
+
+* Resetting user's password.
+
+* Disabling a user account.
+
+The user management module allows seamless user administration, and ensuring only users granted permission can login into the Clinical Service Application. It controls what an authenticated user can view or what action they can perform in the system.
+
+
+#### Login as a User Administrator
+
+To login, provide the login credentials, the user must have administrator privileges so as to gain access.
+
+![OpenMRS Login Page ](images/image64.png)
+
+After successful login into the system, the user  will be directed to the OpenMRS landing page.
+
+![OpenMRS Landing Page ](images/image65.png)
+
+#### Managing Users
+
+To create users, you will navigate to the Administration page on the title bar of the OpenMRS homepage, 
+and select “Manage users” link
+
+![OpenMRS Administration Page ](images/image66.png)
+
+The user  will be directed to the “Manage Users” page and then they will be required to click the ‘Add user’ link on the page.
+
+![OpenMRS Manage User's Page ](images/image67.png)
+
+On the Add user page, the user will have two options to either add a new user or use an existing person in the system already
+You will be required to search for the user in the system first before adding  the user to ensure the user does not exist in the system. This prevents duplication of user accounts in the system, and makes it easy to manage user accounts in the system. 
+
+##### Adding a New User 
+ Click on the “next” button with “create a new person” title.  
+
+
+![OpenMRS Add User's Page ](images/image68.png)
+
+
+Information to provide when adding a new user:
+
+* Demographic  information - i.e user’s name and gender. Note the field names with a red asterisk on the Given name and gender are required fields. 
+
+![OpenMRS Add User Registration Form ](images/image69.png)
+
+*  Provider Account Section - Then the user will select to create a provider account for the user. 
+
+![OpenMRS Add User Registration Form ](images/image70.png)
+
+* Login Information section
+
+On the login info section, you will have to provide a username and create the user’s password and confirm the new password provided and assign  the new user’s roles based on the level of access they should have in the system.
+
+If you want the user to change the default password immediately after login in, select the “Force password change” button.
+
+Note the password policy for user accounts. ( The password should have at least 8 characters long and should have both upper and lower case characters, at least one digit, and at least one special character)
+
+![OpenMRS Add User Registration Form ](images/image71.png)
+
+On the lower section of the login info section there is a hidden advanced options link and upon clicking “Show Advanced Options”,  additional security questions will be displayed where one can enhance the security of their login credentials by providing secret questions and answers(optional).
+
+ This can be reused when the user has forgotten their password, and they want to reset their credentials. then click on the search button. 
+
+![OpenMRS Add User Registration Form ](images/image72.png)
+
+
+Upon completing filling the form click on the ‘Save User’ button on the bottom of the page.
+
+Once the information has been successfully saved, the user can login in on the Clinical Service App with the credentials provided. 
+
+![OpenMRS Add User Registration Form ](images/image73.png)
+
+If there arises any errors when saving, a pop up message will be displayed on top of the page displaying the errors to be corrected
+
+![OpenMRS Add User Registration Form ](images/image74.png)
+
+If you have correctly added or updated a user information, a pop up message will be displayed highlighting the user has been saved successfully
+
+![OpenMRS Add User Registration Form ](images/image75.png)
+
+#### Updating User's information
+
+You will go to manage users page, then you will search for the specific user to update information for using the provided search attributes (either the name or a specific role).
+Then click on the specific user’s  system id on the search results table to be directed to the user information form where you will be able to make the updates. To save the information, click on save, and the user’s information will be updated. 
+
+![OpenMRS Add User Registration Form ](images/image78.png)
+
+![OpenMRS Add User Registration Form ](images/image77.png)
+
+#### Changing/Resetting a User’s Password
+
+Search for the specific user to change/reset password on the “manage user page”, then click on edit the user information. Update the user information with the new password and confirm the password, then save the form. This will automatically update the user password with the new provided password.
+
+![OpenMRS Add User Registration Form ](images/image79.png)
+
+#### Disabling/Enabling an User Account
+
+Search for the specific user account to disable on the “manage user page” , then on the disable account section on the user information form, provide the reason to disable the account then click on the disable button to disable the user.
+
+![OpenMRS Add User Registration Form ](images/image80.png)
+
+#### New User Account Login
+
+The new user will be required to use the credentials provided by the user administrator for the first time when logging in: 
+
+* Username
+
+* Password (change the password immediately after logging in)
+
+* Select the login location 
+
+If the force password change option is selected, it will require the user to provide a new user password. 
+If the system does not request for password change, it is required for the user to change their password immediately after logging in for the first time to ensure the security of their user account.
+
+![Bahmni Clinical Module Login Page ](images/image81.png)
+
+#### New/Existing User Changing Password
+
+After successful  login, click on your user profile icon which is located at the top right section of the Clinical Service landing page. 
+Then click on the change password button(with a key icon) from the dropdown menu.
+
+![Bahmni Clinical Module Login Page ](images/image82.png)
+
+![Bahmni Clinical Module Login Page ](images/image83.png)
+
+
+### Laboratory Platform - User Management
+
+It allows the system administrator to manage user accounts for administering services on the Lab platform. Note the credentials for the lab platform are different from the Clinical Service platform. 
+
+The user management module on the laboratory platform facilities
+
+* Adding/creating new lab users.
+
+* Editing existing users information.
+
+* Deactivating/Activating user account.
+
+* Unlocking user accounts.
+
+* Updating and resetting the user's password.
+
+
+![User Management Laboratory Platform ](images/image84.png)
+
+To manage users in the platform, click on the Administration on the top menu. 
+
+![User Management Laboratory Platform ](images/image85.png)
+
+On clicking “Manage Users” on the Administration page, the user will access the user management page.
+
+![User Management Laboratory Platform ](images/image86.png)
+
+#### Creating a Lab User
+
+To add a new system user into the laboratory platform, click on the “Add” button on the user management page.
+
+![User Management Laboratory Platform ](images/image87.png)
+
+#### Updating Lab User's Information
+
+To update an existing user’s information, select on the user to update on the user management page, then click on the edit button. This will direct you to the user management page. If an account is locked or disabled, the user can update the information and the account will be unlocked or activated. 
+
+![Updating Lab User's information](images/image88.png)
+
+#### Deactivating User Account
+
+To deactivate an existing user, on the user management page, select on the user to deactivate, then click on the deactivate button. 
+
+![Deactivating Account User ](images/image89.png)
+
+#### Resetting User's Password
+
+To update or reset a user’s password, on the user management page, select the user to reset or update password then click on the edit button. 
+
+On the edit user information, provide the new user’s password and confirm the password, then save the form. The user information will be updated, and the password will be successfully updated. 
+
+![Resetting Password ](images/image90.png)
