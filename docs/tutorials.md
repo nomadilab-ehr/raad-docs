@@ -77,7 +77,7 @@ know these commands will help you navigate around your server.
 * Install curl command to fetch installer with the following command:
 
 ```
-sudo apt-get update &amp;&amp; sudo apt-get install curl
+sudo apt-get update && sudo apt-get install curl
 ```
 * Finally, all you need to get up and running is to execute the following:
 
