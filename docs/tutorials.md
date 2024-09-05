@@ -17,7 +17,9 @@
 
 [![Diagnosis and Drug Presciptions](https://img.youtube.com/vi/9ElmkEL9KGE/hqdefault.jpg)](https://youtu.be/9ElmkEL9KGE?si=mZa-3nEv6tYnv_go)
 
+## Patient Registration with Continuum of Care
 
+![Patient Registration flow with continuum of care ](images/patientflow.png)
 
 ## RAAD Deployment Tutorial
 
