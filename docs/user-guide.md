@@ -487,7 +487,6 @@ Follow the same steps then select on the the transfer button then click on save
 
 ![Inpatient Module - Transfer a patient ](images/image56.png)
 
-## Appointment Scheduling
 
 ### Appointment Scheduling App
 A feature within the RAAD EHR system that enables healthcare providers to efficiently manage patient appointments. 
@@ -520,7 +519,7 @@ To book an appointment:
 
 ![Adding an appointment](images/image98.png)
 
-##### Walk-in Appointment
+#### Walk-in Appointment
 
 A one-time, unscheduled appointment made on the spot when a patient visits the facility without prior booking.
 
@@ -531,7 +530,7 @@ Validate all details before finalizing the schedule then click on the save butto
 ![Wak-in appointment](images/image100.png)
 
 
-##### Recurring Appointment
+#### Recurring Appointment
 
 A series of pre-scheduled appointments for the same patient, occurring at regular intervals (e.g., weekly or monthly) to address ongoing care needs.
 
