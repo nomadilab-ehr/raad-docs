@@ -167,6 +167,7 @@ A patient visit encompasses the entire process of a patient's interaction with a
 
 To start a visit, on the registration page(located at the bottom right, just beside the 'Save' button), there is a 'Start Visit' button with a drop down of different visit types.
 
+
 The Start visit types includes: 
 
 * OPD (Outpatient)
@@ -182,6 +183,10 @@ The Start visit types includes:
 * Laboratory
 
 * EPI (Immunisation)
+
+* ANC (Antenatal Care)
+
+* VCT ( Voluntary Counselling and Testing)
 
 
 ![Available Visits ](images/image9.png)
@@ -481,6 +486,82 @@ You will follow the same steps as admitting a patient only that on the InPatient
 Follow the same steps then select on the the transfer button then click on save 
 
 ![Inpatient Module - Transfer a patient ](images/image56.png)
+
+## Appointment Scheduling
+
+### Appointment Scheduling App
+A feature within the RAAD EHR system that enables healthcare providers to efficiently manage patient appointments. 
+It streamlines booking, rescheduling, and cancellations while providing an overview of available slots and practitioner schedules.
+
+![Appointmnet Scheduling](images/image96.png)
+
+Clicking on the ```Appointments List``` directs you to a new page where you can:
+
+* Make a New Appointment: Easily schedule a new appointment using the booking form.
+
+* View Appointments in Calendar View: See all scheduled appointments highlighted in a calendar format for better visualization and management.
+
+![Adding an Appointment](images/image97.png)
+
+#### Adding An Appointment
+
+
+To book an appointment: 
+
+* Enter Patient Information: Provide the patient's name or ID.
+
+* Select Specialty: Choose the relevant medical specialty.
+
+* Choose Clinical Visit Type: Specify the type of visit (e.g., Vaccination, nutrtion, or test).
+
+* Select Provider and Location: Pick the healthcare provider and the location where the appointment will take place.
+
+* Fill in Appointment Date/Dates and Time: Select the date or dates for a recurring appointment and the time for the appointment.
+
+![Adding an appointment](images/image98.png)
+
+##### Walk-in Appointment
+
+A one-time, unscheduled appointment made on the spot when a patient visits the facility without prior booking.
+
+![Walk-in Appointment](images/image99.png)
+
+Validate all details before finalizing the schedule then click on the save button.
+
+![Wak-in appointment](images/image100.png)
+
+
+##### Recurring Appointment
+
+A series of pre-scheduled appointments for the same patient, occurring at regular intervals (e.g., weekly or monthly) to address ongoing care needs.
+
+![Reccurring Appointment](images/image101.png)
+
+Back on the Appointments List page the appointments will be highlighted at the time and date in a calendar view.
+
+![Appointment scheduling](images/image102.png)
+
+When selecting a patient, you can perform the following actions:
+
+![Appointment Actions](images/image103.png)
+
+* Edit Appointment: Update the details of an existing appointment.
+
+* Check-In: Mark the patient as arrived for their appointment.
+
+![Check-in](images/image104.png)
+
+* Complete: Mark the appointment as completed after the visit.
+
+![Complete](images/image105.png)
+
+* Mark as Missed: Indicate that the patient did not show up for the appointment.
+
+![Missed](images/image106.png)
+
+* Cancel Appointment: Remove the appointment from the schedule.
+
+* Make a New Appointment: Schedule a new appointment for the patient.
 
 
 ## Laboratory Module
