@@ -367,7 +367,7 @@ Nutrional Assessment Observation Form
 
 ![Nutritional Assessment form](images/image107.png)
 
-##### Cosultation Notes
+##### Consultation Notes
 
 They are the notes captured by physicians/specialists that highlight crucial information about a patient's medical condition based on the observations, examinations, and lab test results if conducted. 
 
