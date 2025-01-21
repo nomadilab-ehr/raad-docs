@@ -300,7 +300,7 @@ This form is typically used by healthcare providers, including physicians, nurse
 It can be accessed by clicking the ‘Add New Obs Form’ button on the observations page, 
 then on the observation forms available will be listed. 
 
-![History and Examination](images/image19.png)
+![History and Examination](images/image22.png)
 
 For one to view the history and examination form, you will need to click it on the displayed table for an empty form to be shown.
 
@@ -319,7 +319,7 @@ After completing filling  the form, review and verify that the information added
 
 ###### Other Observation Forms
 
-ther observation forms available, and to be filled during a patient encounter while receiving a specific service include:
+Other Observation forms (Obs) available, and to be filled during a patient encounter while receiving a specific service include:
 
 * Delivery 
 
@@ -342,17 +342,30 @@ ther observation forms available, and to be filled during a patient encounter wh
 * OPD
 
 * PNC
+  
+* TB Screening Form
+  
+* TB Diagnosis
+  
+* Nutritional Assessment
+  
+* OTP Follow Up
+  
+* Test IE Form
+  
+* TSFT Follow Up
 
 Capturing information on the observation forms follows the same process. 
 
 ![Other Observation Forms](images/image22.png)
 
-
- OPD Observation form. 
-
+ OPD Observation form.
 
 ![OPD Observation Form](images/image23.png)
 
+Nutrional Assessment Observation Form
+
+![Nutritional Assessment form](images/image107.png)
 
 ##### Cosultation Notes
 
@@ -464,11 +477,11 @@ Can be accessed from the home dashboard with the ‘Inpatient’ app menu button
 
 Then you will be directed to assign the patient the available vacant bed. 
 
-![Inpatient Module - Admitting a patient ](images/image52.png)
+![Inpatient Module - Admitting a patient ](images/image108.png)
 
 Then click on assign and a message will pop up indicating the bed was assigned successfully
 
-![Inpatient Module - Admitting a patient ](images/image53.png)
+![Inpatient Module - Admitting a patient ](images/image109.png)
 
 On the admitted patient’s tab the patient will be added automatically that they have been admitted with a bed icon on the side
 
@@ -488,7 +501,7 @@ Follow the same steps then select on the the transfer button then click on save
 ![Inpatient Module - Transfer a patient ](images/image56.png)
 
 
-### Appointment Scheduling App
+### Appointment Scheduling
 A feature within the RAAD EHR system that enables healthcare providers to efficiently manage patient appointments. 
 It streamlines booking, rescheduling, and cancellations while providing an overview of available slots and practitioner schedules.
 
@@ -562,6 +575,26 @@ When selecting a patient, you can perform the following actions:
 
 * Make a New Appointment: Schedule a new appointment for the patient.
 
+#### Adding A Service
+Click on ```Admin``` to be directed to the services page. The Available services will be displayed in a table like format with the:
+
+* Service Name - Enter the service name (e.g., Consultation, Imaging)
+
+* Speciality - Providers qualified to offer this service.
+  
+* Duration - Indicate the time required for the service.
+  
+* Description - Provide a brief summary of the service.
+
+![Service](images/image110.png)
+
+Click on the ```Add New Service``` Button to be directed to the adding a new service form.
+
+![ADDING A SERVICE](images/image-1.png)
+
+You can specify the service's availability by selecting the days and times it is offered in the facility. Additionally, set the maximum number of patients the specialty can handle during those times. This ensures efficient scheduling and better management of resources.
+
+![Adding A service](images/image-2.png)
 
 ## Laboratory Module
 
