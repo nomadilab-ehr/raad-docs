@@ -351,21 +351,118 @@ Other Observation forms (Obs) available, and to be filled during a patient encou
   
 * OTP Follow Up
   
-* Test IE Form
-  
 * TSFT Follow Up
 
 Capturing information on the observation forms follows the same process. 
 
 ![Other Observation Forms](images/image22.png)
 
- OPD Observation form.
+```OPD Observation Form.``` 
+
+ The Outpatient Department (OPD) Observation Form is used to record patient observations during their visit
 
 ![OPD Observation Form](images/image23.png)
 
-Nutrional Assessment Observation Form
+```Delivery Form```
+
+The Delivery Form records details of childbirth, including maternal information, delivery type, newborn condition, and any complications, ensuring comprehensive documentation for postnatal care.
+
+![Delivery form](images/image114.png)
+
+```PNC Form```
+
+The PNC Form documents postnatal care details, including the mother’s recovery, newborn health, and follow-up care, ensuring holistic monitoring after delivery.
+
+![PNC ](images/image127.png)
+
+```Newborn Form```
+
+The Newborn Form documents key information about a newborn's health, including birth details, physical assessments, feeding, immunizations, and any immediate medical interventions needed.
+
+![Newborn](images/image118.png)
+
+```Discharge Form```
+
+The Discharge Form records patient details, diagnosis, treatment summary, and follow-up instructions, ensuring a smooth transition from hospital care to home or another facility.
+
+![Discharge form](images/image111.png)
+
+```Immunization Form```
+
+The Immunization Form tracks patient vaccination details, including administered vaccines, dates, dosage, and follow-up schedules, ensuring proper immunization records and compliance.
+
+![Immunization form](images/image117.png)
+
+```Infant Visit Form```
+
+The Infant Visit Form records key details of an infant's health check-up, including growth metrics, developmental milestones, feeding patterns, immunization updates, and follow-up recommendations.
+
+![Infant visit form](images/image112.png)
+
+```Birth Spacing Form```
+
+The Birth Spacing Form records counseling details, chosen methods, and follow-up plans.
+
+![Birth spacing](images/image115.png)
+
+```Mother PNC Visit```
+
+The Mother PNC Visit Form captures details of the mother's health post-delivery, including physical recovery, mental well-being, breastfeeding progress, and follow-up care recommendations.
+
+![MOTHER PNC VISIT](images/image116.png)
+
+```ANC Visit```
+
+The ANC Visit Form records details of antenatal care visits, including maternal health assessments, fetal development, lab results, and any advice or interventions provided during the pregnancy.
+
+![ANC Visit](images/image113.png)
+
+```TB Screening Form```
+
+The TB Screening Form documents patient symptoms, risk factors, and test results to assess the likelihood of tuberculosis, ensuring timely diagnosis and intervention.
+
+![TB screening form](images/image119.png)
+
+```TB Diagnosis Form```
+
+The TB Diagnosis Form records the results of diagnostic tests, such as sputum smears or chest X-rays, and confirms the presence of tuberculosis, and treatment decisions.
+
+![TB diagnosis](images/image120.png)
+
+```Nutrional Assessment Observation Form```
+
+The Nutritional Assessment Observation Form is used to evaluate a patient's nutritional status and identify any deficiencies or related health concerns.
 
 ![Nutritional Assessment form](images/image107.png)
+
+```SC (Stabilization Center) Follow up Form```
+
+The SC(Stabilizarion Center) Follow-Up Form tracks the progress of patients from the Stabilization Centers.
+
+![SC follow up](images/image121.png)
+
+```OTP Follow up Form```
+
+The OTP(Outpatient Therapeutic feeding) Follow-Up Form monitors the progress of patients enrolled in Outpatient Therapeutic feeding Program.
+![OTP Follow up](images/image123.png)
+
+```OPD(Outpatient) Form```
+
+The OPD(OUtpatient) Form records patient details during an outpatient visit, including the reason for the visit, clinical findings, diagnosis, prescribed treatments, and follow-up.
+
+![OPD form](images/image124.png)
+
+```VCT Form```
+
+The VCT Form (Voluntary Counseling and Testing) records patient information, counseling sessions, and HIV test results, ensuring confidentiality and follow-up care for those undergoing HIV testing and counseling.
+
+![vct form](images/image125.png)
+
+```TSTP(Targeted Supplementary Feeding Program) Follow up Form```
+
+The form captures follow up records for patients on the targeted supplementary feeding program.
+
+![TSTP Follow up](images/image126.png)
 
 ##### Consultation Notes
 
