@@ -437,7 +437,7 @@ The Nutritional Assessment Observation Form is used to evaluate a patient's nutr
 
 ```SC (Stabilization Center) Follow up Form```
 
-The SC(Stabilizarion Center) Follow-Up Form tracks the progress of patients from the Stabilization Centers.
+The SC(Stabilization Center) Follow-Up Form tracks the progress of patients from the Stabilization Centers.
 
 ![SC follow up](images/image121.png)
 
